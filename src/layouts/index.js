@@ -81,7 +81,7 @@ const TemplateWrapper = (props) => {
               <Footer
                 twitter={data.site.siteMetadata.twitter}
                 github={data.site.siteMetadata.github}
-                linkedin={data.site.siteMetadata.linkedin}
+                twitch={data.site.siteMetadata.twitch}
               />
             </div>
           </div>
@@ -107,7 +107,7 @@ const TemplateWrapper = (props) => {
               description
               keywords
               twitter
-              linkedin
+              twitch
               github
             }
           }

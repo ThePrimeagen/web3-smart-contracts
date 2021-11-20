@@ -2,28 +2,73 @@
 path: "/intro"
 title: "Introduction"
 order: "1A"
-section: "The First Section"
-description: "this is the description that will show up in social shares"
+section: "The Blockchain"
+description: "The introduction into the talk about web3"
 icon: "dumpster-fire"
 ---
 
-This is page one.
+## The Year Of Crypto
 
-## Check out this image
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
-![Gatsby Logo](./images/logo.svg)
+## That's what I thought in 2017
+![2017 best year](./images/2017.png)
 
-## Check out a code sample
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
-```js
-const x = 2 + 2;
-```
+## Slum Doge Millionaire
+![Slumdoge Millionaire](./images/slum-doge.png)
 
-- This is a link to [Frontend Masters][fem].
-- This another link to [Brian Holt's Twitter](https://twitter.com/holtbt).
-- Here's another link to a [site built with this starter][containers].
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
-> This is emphasized information.
+## Now you have me talking to you about crypto
+Just excuse the lambo.
 
-[fem]: https://www.frontendmasters.com
-[containers]: https://btholt.github.io/complete-intro-to-containers/
+### Why am I doing this?
+I am not going to sell you on anything.  I am not going to tell you that crypto
+is 100% the future.  I have no idea what the future will be and crypto is a
+very interesting topic to say the least.  From a personal stand point, I think
+its just interesting.  I think every developer should at least play with it and
+see how it goes.

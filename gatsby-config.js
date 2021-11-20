@@ -1,21 +1,21 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter Course",
-    subtitle: "For making great content",
-    author: "Your Name Here",
-    authorSubtitle: "Company Here",
+    title: "A Tour of Web3's Ethereum.",
+    subtitle: "The sort of comprehensive tour of the ethereums block chain.",
+    author: "ThePrimeagen",
+    authorSubtitle: "ThePrimeagen",
     authorImage: "author.jpg", // this image should go in /static
     courseImage: "courseImage.png", // this also should go in /static
-    twitter: "https://twitter.com/holtbt", // make empty string to omit socials
-    linkedin: "https://linkedin.com/in/btholt",
-    github: "https://github.com/btholt",
+    twitch: "https://twitch.tv/ThePrimeagen",
+    twitter: "https://twitter.com/ThePrimeagen", // make empty string to omit socials
+    github: "https://github.com/ThePrimeagen",
     description:
-      "This is the description that will show up when people share as well as on search engines",
+      "The sort of comprehensive tour of the ethereums block chain.",
     keywords: [
-      "this is",
-      "a list of keywords and phrase",
-      "that search engines",
-      "will index your page for",
+      "Blockchain",
+      "web3",
+      "The tutorial of a life time on web3",
+      "ThePrimeagen nft web3 blockchain",
     ],
   },
   pathPrefix: "",

@@ -2,32 +2,32 @@ import React from "react";
 import { graphql, StaticQuery } from "gatsby";
 import Gh from "./github-social.svg";
 import Tw from "./twitter-social.svg";
-import Li from "./linkedin-social.svg";
+import Twitch from "./twitch-social.svg";
 
 import "./Footer.css";
 
-export default function Footer({ twitter, linkedin, github }) {
+export default function Footer({ twitter, twitch, github }) {
   return (
     <footer className="footer">
       <ul className="socials">
+        {twitch ? (
+          <li className="social">
+            <a href="https://twitch.tv/ThePrimeagen">
+              <Twitch />
+            </a>
+          </li>
+        ) : null}
         {twitter ? (
           <li className="social">
-            <a href="https://twitter.com/holtbt">
+            <a href="https://twitter.com/ThePrimeagen">
               <Tw />
             </a>
           </li>
         ) : null}
         {github ? (
           <li className="social">
-            <a href="https://github.com/btholt">
+            <a href="https://github.com/ThePrimeagen">
               <Gh />
-            </a>
-          </li>
-        ) : null}
-        {linkedin ? (
-          <li className="social">
-            <a href="https://linkedin.com/in/btholt">
-              <Li />
             </a>
           </li>
         ) : null}
