@@ -27,12 +27,31 @@ To understand you need to understand two things.
 #### What is a virtual machine.
 (Use gimp theprimeagen)
 
-#### What is the current cost of gas?
-(Use brave search theprimeagen)
-
+#### Ok, so I know about the vm, how much does it cost?
 > Typical measurement for gas is in `gwei`
 
-But how much is that?  gas-cost * 10^9 * eth-cost / 10^18<br />
-That is for _one_ gas.<br />
+But how much is that?
+```
+gas-cost * gas-used * 10^9 * eth-cost / 10^18
+// Or simplified as
+gas-cost * gas-used * eth-cost / 10^9
+```
 
-#### Lets break down whats happening
+#### An easier way to learn about cost is with exploring.
+##### Lets build some contracts and watch the price change as we do things.
+So lets do some basic programs and start finding out what things cost.
+
+- base function, set counter.
+- base function + return const
+- base function + create var + return var
+- base function + create var + return var + pass in var
+- base function + create var + return var + pass in var + return var * pass in var
+
+##### Key Takeaway
+Everything you do costs money.  Be careful.  Let me rant for a second.
+
+#### A cool gas reporter
+[Gas Reporter](https://github.com/cgewecke/hardhat-gas-reporter)
+```
+yarn add -D hardhat-gas-reporter
+```
