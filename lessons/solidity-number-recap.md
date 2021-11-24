@@ -2,7 +2,7 @@
 path: "/solidity-numbers-recap"
 title: "Numbers Recap"
 order: "21A"
-section: "Solidity"
+section: "Solidity Fundamentals"
 description: "Learning the fundamentals of the language"
 icon: "dumpster-fire"
 ---

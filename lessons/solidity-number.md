@@ -2,7 +2,7 @@
 path: "/solidity-numbers"
 title: "Numbers"
 order: "20A"
-section: "Solidity"
+section: "Solidity Fundamentals"
 description: "Learning the fundamentals of the language"
 icon: "dumpster-fire"
 ---
@@ -25,7 +25,9 @@ The language of ether
 <br />
 <br />
 
-### Numbers
+TODO: Note about not knowing the solidity language.  Using Cheatsheet.
+
+### The Counter Contract
 Lets make a contract that every time its called it increments by one.
 
 Remember, I am not going to teach you just Solidity.  We are going to try to

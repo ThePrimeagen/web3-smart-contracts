@@ -2,7 +2,7 @@
 path: "/solidity-gas"
 title: "Gas"
 order: "40A"
-section: "Solidity"
+section: "Solidity Fundamentals"
 description: "Learning the fundamentals of the language"
 icon: "dumpster-fire"
 ---
@@ -96,7 +96,7 @@ So lets do some basic programs and start finding out what things cost.
 <br />
 <br />
 
-#### A cool gas reporter
+### A cool gas reporter
 [Gas Reporter](https://github.com/cgewecke/hardhat-gas-reporter)
 
 ```
@@ -117,4 +117,3 @@ yarn add -D hardhat-gas-reporter
 <br />
 <br />
 <br />
-

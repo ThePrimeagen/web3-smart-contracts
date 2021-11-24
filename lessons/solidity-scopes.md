@@ -2,7 +2,7 @@
 path: "/solidity-scopes"
 title: "Scopes"
 order: "30A"
-section: "Solidity"
+section: "Solidity Fundamentals"
 description: "Learning the fundamentals of the language"
 icon: "dumpster-fire"
 ---
