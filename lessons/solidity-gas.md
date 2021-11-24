@@ -15,7 +15,7 @@ Its the cost, in ethers, for the transaction.  The typical measurement for gas
 is `gwei`.  `gwei` is 10^9 `wei`.  In other words, its giga weis.
 
 * wei is the fundamental unit of ether.  Its like our pennies.
-* gwei = 10^9 * wei
+* gwei = 10^9 wei
 * ether = 10^18 wei
 
 #### How does gas price work?
@@ -28,14 +28,29 @@ To understand you need to understand two things.
 (Use gimp theprimeagen)
 
 #### Ok, so I know about the vm, how much does it cost?
+(Search with brave)
 > Typical measurement for gas is in `gwei`
-
 But how much is that?
 ```
 gas-cost * gas-used * 10^9 * eth-cost / 10^18
 // Or simplified as
 gas-cost * gas-used * eth-cost / 10^9
 ```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 #### An easier way to learn about cost is with exploring.
 ##### Lets build some contracts and watch the price change as we do things.
@@ -47,11 +62,59 @@ So lets do some basic programs and start finding out what things cost.
 - base function + create var + return var + pass in var
 - base function + create var + return var + pass in var + return var * pass in var
 
-##### Key Takeaway
-Everything you do costs money.  Be careful.  Let me rant for a second.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Key Takeaway
+* Everything you do costs money.  Be careful.
+* Let me rant for a second about javascript.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 #### A cool gas reporter
 [Gas Reporter](https://github.com/cgewecke/hardhat-gas-reporter)
+
 ```
 yarn add -D hardhat-gas-reporter
 ```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
