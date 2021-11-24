@@ -163,9 +163,20 @@ Compilation finished successfully
 <br />
 
 ### We compiled... Now what?
+LETS TEST!!!!
 
 ```
 yarn add -D @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
+```
+
+### Typescript
+```
+npm install --save-dev ts-node typescript
+```
+
+### Testing types
+```
+npm install --save-dev chai @types/node @types/mocha @types/chai
 ```
 
 Yes... its a lot of dependencies.
@@ -190,18 +201,60 @@ one of the primary reasons why I love using hardhat so much is the fact that
 there is a testing suite.  on my own personal project we not only use the
 testing suite, but we also launch to other networks and run the tests on them.
 
-```
-const expect = require("chai").expect;
-const { ethers } = require("hardhat");
+First create a test folder.
 
-describe("Testing that contract.", function () {
-    it("should return a hello world", async function() {
+```
+require("@nomiclabs/hardhat-ethers");
+
+const { ethers } = require("hardhat");
+const { expect } = require("chai");
+
+
+describe("Hello World", () => {
+    it("should get the hello world", async () => {
         const HW = await ethers.getContractFactory("HelloWorld");
-        const helloWorld = await HW.deploy();
-        expect(await helloWorld.hello()).to.equal("Hello, World");
+        const hello = await HW.deploy();
+
+        expect(await hello.hello()).to.equal("Hello, World");
     });
 });
 ```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Execute the test
+```
+npx hardhat test
+```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 #### Failure?
 ```
@@ -244,17 +297,7 @@ important AND with the appropriate methods on this.
 ## A Breaking Point
 ### Build some foundation
 
-### Typescript
-```
-npm install --save-dev ts-node typescript
-```
-
-### Testing types
-```
-npm install --save-dev chai @types/node @types/mocha @types/chai
-```
-
-Lets look at the debug code one more time.
+Lets look at the test code one more time.
 
 ```
 const expect = require("chai").expect;
@@ -270,7 +313,25 @@ describe("Testing that contract.", function () {
 ```
 
 #### Lets create a deploy script.
-once finished lets run this script
+Lets create this into a deploy script that can actually deploy our contract
+onto a network.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Deploy it like so
 ```
 npx hardhat run scripts/deploy.ts --network localhost
 ```
@@ -300,7 +361,37 @@ Please make sure your node is running, and check your internet connection and ne
 (node:394882) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code
 ```
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ITS SOMEONE ELSES COMPUTER...
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 #### Lets make one local now.
 ```
@@ -324,7 +415,9 @@ npx hardhat node
 
 ### Course on developer productivity...
 Its awesome, Tmux, ansible, everything, etc. etc.
+TODO: Put awesome images here instead!
 [Developer Productivity](https://frontendmasters.com/courses/developer-productivity/)
+[Vim Fundamentals](https://frontendmasters.com/courses/vim-fundamentals/)
 
 
 ### Back to regularly scheduled programming.
@@ -338,3 +431,19 @@ We should see
 HelloWorld 0x5FbDB2315678afecb367f032d93F642f64180aa3
 HelloWorld Hello, World
 ```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+

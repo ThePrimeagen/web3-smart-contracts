@@ -72,3 +72,23 @@ is 100% the future.  I have no idea what the future will be and crypto is a
 very interesting topic to say the least.  From a personal stand point, I think
 its just interesting.  I think every developer should at least play with it and
 see how it goes.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Expectations
+TODO:  What will we be talking about and why.  What wont we be talking about?
+
