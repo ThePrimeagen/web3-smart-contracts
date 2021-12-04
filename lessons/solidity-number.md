@@ -393,3 +393,21 @@ Its not ethereum that is smart here, its `ethersjs`.
 <br />
 <br />
 <br />
+
+### Remember how it keeps being one after we run our script?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+

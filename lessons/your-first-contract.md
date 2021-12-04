@@ -16,6 +16,8 @@ First start with installing hard hat
 ```
 mkdir jpegdegens
 cd jpegdegens
+git init
+yarn init -y
 yarn add -D hardhat
 npx hardhat
 ```
@@ -45,8 +47,8 @@ jpegdegens
   - scripts
     - deploy.ts
     ...
-  - tests
-    - sometest.ts
+  - test
+    - sometest.js
     ...
 ```
 
@@ -138,12 +140,6 @@ Fix the version and lets recompile.
 ```
 npx hardhat compile
 Compiling 1 file with 0.8.4
-Warning: Function state mutability can be restricted to pure
- --> contracts/HelloWorld.sol:5:5:
-  |
-5 |     function hello() public returns (string memory) {
-  |     ^ (Relevant source part starts here and spans across multiple lines).
-
 Compilation finished successfully
 ```
 
@@ -163,7 +159,23 @@ Compilation finished successfully
 <br />
 
 ### We compiled... Now what?
-LETS TEST!!!!
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+# LETS TEST!!!!
 
 ```
 yarn add -D @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
@@ -171,12 +183,12 @@ yarn add -D @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-
 
 ### Typescript
 ```
-npm install --save-dev ts-node typescript
+yarn add --save-dev ts-node typescript
 ```
 
 ### Testing types
 ```
-npm install --save-dev chai @types/node @types/mocha @types/chai
+yarn add --save-dev chai @types/node @types/mocha @types/chai
 ```
 
 Yes... its a lot of dependencies.
@@ -198,8 +210,7 @@ Yes... its a lot of dependencies.
 
 ### Lets write a test!!!
 one of the primary reasons why I love using hardhat so much is the fact that
-there is a testing suite.  on my own personal project we not only use the
-testing suite, but we also launch to other networks and run the tests on them.
+there is a testing suite.
 
 First create a test folder.
 
@@ -397,6 +408,42 @@ ITS SOMEONE ELSES COMPUTER...
 ```
 npx hardhat node
 ```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Lets go deeper.
+Lets call our contract that is now deployed on the network.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Lets go even deeper
+Lets call this from your browser!!!
 
 <br />
 <br />

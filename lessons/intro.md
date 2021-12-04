@@ -91,4 +91,5 @@ see how it goes.
 
 ### Expectations
 TODO:  What will we be talking about and why.  What wont we be talking about?
+TODO: You have basic understanding of the block chain
 
