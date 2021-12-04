@@ -101,7 +101,6 @@ Lets create a method to test the isClass function.
 <br />
 <br />
 
-
 ### A quick tutorial on memory
 There are three places for memory to be stored is `storage`, `memory`, and
 `calldata`. <br />
@@ -159,6 +158,59 @@ Its pretty controversial.
 
 TODO: Do I have the faucet link earlier?
 * Remember that link I gave you for the faucet?  Have you been grabbing some?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Lets test the game!
+* Problems.  How do we test random?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Lets Deploy the game!
+Just like before, we simply create a deploy script.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### How do we interact with the contract?
 
 <br />
 <br />
