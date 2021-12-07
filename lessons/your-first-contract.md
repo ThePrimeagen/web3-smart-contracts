@@ -339,23 +339,41 @@ important AND with the appropriate methods on this.
   1 passing (519ms)
 ```
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
 ## A Break Point
 ### Build some foundation
 
-Lets look at the test code one more time.
+Lets look at the test code one more time and ask the question, what happened?
 
-```
-const expect = require("chai").expect;
-const { ethers } = require("hardhat");
-
-describe("Testing that contract.", function () {
-    it("should return a hello world", async function() {
-        const HW = await ethers.getContractFactory("HelloWorld");
-        const helloWorld = await HW.deploy();
-        expect(await helloWorld.hello()).to.equal("Hello, World");
-    });
-});
-```
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 #### Lets create a deploy script.
 Lets create this into a deploy script that can actually deploy our contract
@@ -421,6 +439,7 @@ Please make sure your node is running, and check your internet connection and ne
 <br />
 <br />
 
+### The Cloud
 ITS SOMEONE ELSES COMPUTER...
 
 <br />
@@ -459,7 +478,8 @@ npx hardhat node
 <br />
 
 ### Lets go deeper.
-Lets call our contract that is now deployed on the network.
+1. Lets inspect the our local network
+1. Lets call our contract that is now deployed on the network.
 
 <br />
 <br />
@@ -477,7 +497,77 @@ Lets call our contract that is now deployed on the network.
 <br />
 
 ### Lets go even deeper
-Lets call this from your browser!!!
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Some would say don't do it
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Some would beg me to just explain what happenened
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### I say no, deeper we go
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Lets communicate from the browser.
+1. Go and get the MetaMask Extension
+1. Go and get a positive attitude
+1. Go and consider watching my other courses on FEM
 
 <br />
 <br />
@@ -500,18 +590,230 @@ TODO: Put awesome images here instead!
 [Developer Productivity](https://frontendmasters.com/courses/developer-productivity/)
 [Vim Fundamentals](https://frontendmasters.com/courses/vim-fundamentals/)
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
-### Back to regularly scheduled programming.
-Execute
-```
-> npx hardhat run scripts/deploy.ts --network localhost
+### Create an account
+I'll give you a moment
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Import a test account into your metamask
+* Copy any of the accounts from the initial output.
+  * Consistent.  Meaning you can keep this in your account.
+* Make sure metamask is pointed to "localhost"
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Ok, we are not going this deep.
+I just wanted you to get that done.  Its important for later.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Jokes on you
+We are actually doing it. So copy this webpack config.
+<br />
+<br />
+I'll do A lot of live coding, but not webpack config live coding.  No, Sir.
+
+```javascript
+const dotenv = require("dotenv");
+dotenv.config();
+
+const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
+const webpack = require("webpack");
+
+module.exports = {
+    entry: "./src/index.ts", // bundle"s entry point
+    output: {
+        path: path.resolve(__dirname, "dist"), // output directory
+        filename: "[name].js", // name of the generated bundle
+    },
+    resolve: {
+        extensions: [".js", ".ts", ".json"],
+    },
+
+    mode: "development",
+
+    module: {
+        rules: [
+            {
+                test: /\.ts$/,
+                loader: "ts-loader",
+                exclude: /node_modules/,
+            },
+
+            {
+                test: /\.css$/i,
+                use: ["style-loader", "css-loader"],
+            },
+        ],
+    },
+    plugins: [
+        new HtmlWebpackPlugin({
+            template: "./src/index.html",
+            inject: "body",
+        }),
+        new webpack.DefinePlugin({
+            'process.env.CONTRACT_ADDRESS': JSON.stringify(process.env.CONTRACT_ADDRESS),
+            'process.env.DEBUG': JSON.stringify(process.env.DEBUG),
+        }),
+    ],
+
+    watch: true,
+
+    devServer: {
+        historyApiFallback: true,
+        contentBase: './',
+        watchOptions: {
+            aggregateTimeout: 300,
+            poll: 1000
+        }
+    }
+};
 ```
 
-We should see
+You also need some dependencies
 ```
-HelloWorld 0x5FbDB2315678afecb367f032d93F642f64180aa3
-HelloWorld Hello, World
+yarn add -D webpack webpack-cli ts-loader html-webpack-plugin dotenv
 ```
+
+You will also need this, `tsconfig.json`
+```json
+{
+    "compilerOptions": {
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+    }
+}
+```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Complete code
+```typescript
+import { ethers } from "ethers";
+
+async function hasSigners(): Promise<boolean> {
+    //@ts-ignore
+    const metamask = window.ethereum;
+    const signers = await (metamask.request({method: 'eth_accounts'}) as Promise<string[]>);
+    return signers.length > 0;
+}
+
+async function requestAccess(): Promise<boolean> {
+    //@ts-ignore
+    const result = (await window.ethereum.request({ method: 'eth_requestAccounts' })) as string[];
+    return result && result.length > 0;
+}
+
+async function getContract() {
+    const address = process.env.CONTRACT_ADDRESS;
+
+    if (!(await hasSigners()) && !(await requestAccess())) {
+        console.log("You are in trouble, no one wants to play");
+    }
+
+    // @ts-ignore
+    const provider = new ethers.providers.Web3Provider(window.ethereum)
+    const contract = new ethers.Contract(
+        address,
+        [
+            "function helloWorld() public pure returns(string memory)",
+        ], // abi
+        provider
+    );
+
+    console.log("We have done it, time to call");
+    console.log(await contract.helloWorld());
+}
+
+
+getContract();
+```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### There are a few gaps in your knowledge
+lets start filling it out.
 
 <br />
 <br />

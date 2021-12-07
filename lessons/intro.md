@@ -2,7 +2,7 @@
 path: "/intro"
 title: "Introduction"
 order: "1A"
-section: "The Blockchain"
+section: "The Introduction"
 description: "The introduction into the talk about web3"
 icon: "dumpster-fire"
 ---
