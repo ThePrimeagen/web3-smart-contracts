@@ -8,10 +8,6 @@ icon: "dumpster-fire"
 ---
 
 ## Your First Contract
-So where are we going to begin on this long journy?  The thing is that we have
-to start with the env.  So lets get hardhat up and running.
-
-First start with installing hard hat
 
 ```
 mkdir jpegdegens
@@ -67,6 +63,23 @@ jpegdegens
 <br />
 <br />
 
+### Don't forget the .gitignore
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 ### Create first contract.
 Create a file in contracts folder named HelloWorld.sol
@@ -105,6 +118,22 @@ contract HelloWorld {
 ```
 npx hardhat compile
 ```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 #### Did you get an error?
 Did you get this error?
@@ -208,18 +237,46 @@ Yes... its a lot of dependencies.
 <br />
 <br />
 
+### Before we write a test there are some things to do.
+
+1. hardhat.config.js -> hardhat.config.ts
+
+    Or else this...
+    ```
+    ➜  jpegdegens git:(master) ✗ npx hardhat test
+
+      0 passing (1ms)
+    ```
+
+1. add `import "@nomiclabs/hardhat-waffle";` to the top of `hardhat.config.ts`.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ### Lets write a test!!!
 one of the primary reasons why I love using hardhat so much is the fact that
 there is a testing suite.
 
-First create a test folder.
+1. First create a test folder.
+1. Second, create the test...
 
-```
-require("@nomiclabs/hardhat-ethers");
+```typescript
+import _ from "@nomiclabs/hardhat-ethers";
 
-const { ethers } = require("hardhat");
-const { expect } = require("chai");
-
+import { ethers } from "hardhat";
+import { expect } from "chai";
 
 describe("Hello World", () => {
     it("should get the hello world", async () => {
@@ -266,36 +323,13 @@ npx hardhat test
 <br />
 <br />
 
-
-#### Failure?
-```
-  Testing that contract.
-    1) should return a hello world
-
-
-  0 passing (4ms)
-  1 failing
-
-  1) Testing that contract.
-       should return a hello world:
-     TypeError: Cannot read property 'getContractFactory' of undefined
-      at Context.<anonymous> (test/HelloWorld.js:6:33)
-      at processImmediate (internal/timers.js:461:21)
-
-```
-
-#### Solution
-```
-require("@nomiclabs/hardhat-waffle");
-```
-
 You will see this in some of the hardhat.config.js files and its very
 important.  It creates ethers as a global object and as something that can be
 important AND with the appropriate methods on this.
 
 
 ```
-➜  yayayaya git:(master) ✗ npx hardhat test
+➜  jpegdegens git:(master) ✗ npx hardhat test
 
 
   Testing that contract.
@@ -305,7 +339,7 @@ important AND with the appropriate methods on this.
   1 passing (519ms)
 ```
 
-## A Breaking Point
+## A Break Point
 ### Build some foundation
 
 Lets look at the test code one more time.

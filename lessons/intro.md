@@ -89,7 +89,80 @@ see how it goes.
 <br />
 <br />
 
-### Expectations
-TODO:  What will we be talking about and why.  What wont we be talking about?
-TODO: You have basic understanding of the block chain
+### The goal of this course
+The goal of this course is not to teach you something specific about a specific
+platform, but instead to give you the foundation it requires to build
+_anything_ you want on with ethereum.
+
+There are plenty of other cool technologies out there that could easily be
+used.  I personally am very excited about building something with solona.  I
+think that it could be a real winner.
+
+#### The Course Outline.
+##### P1. The Foundation
+* The "Hello, Universe" contract.
+  * building a `HelloWorld` contract.
+  * Testing It
+  * Deploying it.
+  * Communicating from the browser.
+
+##### P2. Understanding Solidity
+* A slightly more complex contract with reading and writing.
+
+##### P3. Complex Contract
+* Core concepts.
+  * Arrays
+  * Mappings
+  * Bits
+    * (0x1 << 3) - 1
+    * We will get you good at bits.
+  * Testing, Deploying, Communicating.
+
+##### P4. Memory, Fallbacks -> Diamond Pattern
+* Things we will a bit complicated here.  But it is a must for any developer.
+
+##### P5. Advanced Testing Techniques
+* This will help with development of contracts that rely on 3rd parties.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Ready?
+This does mean we will make a contract before we even understand ANYTHING that
+is happening.  This is ok.  Just go with it and try to draw boxes and arrows.
+<br />
+<br />
+Lastly, I assume you understand programming.
+<br />
+<br />
+We will be hopping between many technologies and moving fast.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
