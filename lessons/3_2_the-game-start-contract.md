@@ -1,21 +1,26 @@
 ---
-path: "/the-game-start-contract"
-title: "The Game : First Contract"
-order: "110A"
+path: "/the-game-the-contract"
+title: "The Game : The Contract"
+order: "210A"
 section: "The Game"
 description: "Learning how to make something more dynamic with solidity"
 icon: "dumpster-fire"
 ---
 
-### Lets start with the contract
-* a function that takes in a `string` (class) and creates a new hash that
-  represents your hero.
-* You can have a list of heroes
-* Heroes should have some sort of "rarity" rating.  Meaning a fighter who gets
-  ok levels of stats should be have some sort of "rating" that aligns with
-  their class + stats
-* I am going to write code that is the closest I can to other languages.  This
-  may mean inefficient code.  Sometimes non canonical code.
+### Design
+* We want to be able to generate random Hereos.
+* The user gets to put in their class of hereo on generation
+  * Class will not influence stats created, therefore getting an epic hero will
+    be hard, chance wise.
+  * classes: Mage, Healer, Barbarian
+* stats are randomly generated
+  * stats are strength, health, intellect, magic, dexterity
+  * A scale of 1 - 18
+* We need a website to generate them from and display your collection.
+* We probably don't want these to be fungable...  BUT we will not have time to implement ERC721, nor VRF
+
+#### WE WILL TEST TOO
+Its important to get into the habbit.
 
 <br />
 <br />
@@ -32,19 +37,32 @@ icon: "dumpster-fire"
 <br />
 <br />
 
-### What is memory
-To keep things simple lets say that there are two types of memory.  What is
-stored on or off chain.
+### But remember how I told you I did other front end masters?
+TODO: Get that image and link
 
-### How to generate Randomness?
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+### Things for me not to forget
+#### How to generate Randomness?
 ```
 function random() private view returns (uint) {
     return uint(keccak256(block.difficulty, block.timestamp));
 }
 ```
-
-### How to ensure that class is provided correctly?
-We need to compare the `class` string to make sure its something that we expect.
 
 <br />
 <br />

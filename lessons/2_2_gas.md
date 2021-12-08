@@ -1,7 +1,7 @@
 ---
 path: "/solidity-gas"
 title: "Gas"
-order: "40A"
+order: "160A"
 section: "Solidity Fundamentals"
 description: "Learning the fundamentals of the language"
 icon: "dumpster-fire"
@@ -117,3 +117,4 @@ yarn add -D hardhat-gas-reporter
 <br />
 <br />
 <br />
+
