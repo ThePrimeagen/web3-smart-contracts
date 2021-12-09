@@ -202,5 +202,56 @@ Ask the questions
 <br />
 <br />
 
+### What is the size of our finished contract.
 
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Did you know you can only have 24kb?
+YIKES....
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Every time your contract gets deployed again (upgrade / bug fix) address changes??
+YIKES....
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
