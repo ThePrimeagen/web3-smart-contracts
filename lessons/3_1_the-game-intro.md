@@ -1,7 +1,7 @@
 ---
 path: "/the-game"
 title: "The Game : Intro"
-order: "300A"
+order: "310A"
 section: "The Game"
 description: "Learning how to make something more dynamic with solidity"
 icon: "dumpster-fire"

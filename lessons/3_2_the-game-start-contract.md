@@ -1,7 +1,7 @@
 ---
 path: "/the-game-the-contract"
 title: "The Game : The Contract"
-order: "210A"
+order: "320A"
 section: "The Game"
 description: "Learning how to make something more dynamic with solidity"
 icon: "dumpster-fire"
@@ -16,6 +16,7 @@ icon: "dumpster-fire"
 * stats are randomly generated
   * stats are strength, health, intellect, magic, dexterity
   * A scale of 1 - 18
+  * There can only be _up to_ one 18, one 17, etc etc
 * We need a website to generate them from and display your collection.
 * We probably don't want these to be fungable...  BUT we will not have time to implement ERC721, nor VRF
 
@@ -59,8 +60,8 @@ TODO: Get that image and link
 ### Things for me not to forget
 #### How to generate Randomness?
 ```
-function random() private view returns (uint) {
-    return uint(keccak256(block.difficulty, block.timestamp));
+function generateRandom() public view returns (uint) {
+    return uint(keccak256(abi.encodePacked(block.difficulty, block.timestamp)));
 }
 ```
 
@@ -79,8 +80,13 @@ function random() private view returns (uint) {
 <br />
 <br />
 
-### Lets write our first test
-Lets create a method to test the isClass function.
+### Lets talk bits and information
+
+```javascript
+function _what_is_my_name_(a: number, b: number): boolean {
+    return a & b === b;
+}
+```
 
 <br />
 <br />
@@ -97,12 +103,11 @@ Lets create a method to test the isClass function.
 <br />
 <br />
 
-### Lets generate some stats
-* We want to be able to generate stats, but we don't want the possibility of 5
-  18 point stats.
-  * 5 stat branches with a possiblity of 18.
-  * I think that we should make only 1 have the possibility of 18
-  * The next have possibility of 17, etc etc.
+### First lets talk boolean logic
+* and
+* or
+* not
+* exclusive or
 
 <br />
 <br />
@@ -119,18 +124,8 @@ Lets create a method to test the isClass function.
 <br />
 <br />
 
-### A quick tutorial on memory
-There are three places for memory to be stored is `storage`, `memory`, and
-`calldata`. <br />
-
-The two you should be concerned with is `memory` and `storage`.
-* Memory is ephemerial, cheap
-* Storage is stored on the contract, expensive af.
-
-#### But when do I need to specify these?
-On complex types
-* Anything that cannot be expressed in 256 bits (32 bytes).
-* Don't worry, we are going to get to bytes.
+### Bases
+What are bases?
 
 <br />
 <br />
@@ -147,14 +142,8 @@ On complex types
 <br />
 <br />
 
-### How do we store this?
-#### We have to deviate to bits...
-TODO: Determine how much time this takes
-(Draw on Gimp)
-
-##### Exercise: Capture the Flags
-
-### Ok back to this so called contract
+### Questions
+Ask the questions
 
 <br />
 <br />
@@ -171,29 +160,15 @@ TODO: Determine how much time this takes
 <br />
 <br />
 
-### Randomness
-Its pretty controversial.
-
-TODO: Do I have the faucet link earlier?
-* Remember that link I gave you for the faucet?  Have you been grabbing some?
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### Lets test the game!
-* Problems.  How do we test random?
+### Binary Positions and Implications
+* What is numbers in Decimal
+* What is numbers in Binary
+* multiplying by 2 (don't forget shift)
+* Work through some examples
+* Quick Mafs
+* Logic Operations
+* BLOW YOUR MIND
+* Double make sure you know about Hex plus shifting
 
 <br />
 <br />
@@ -210,8 +185,7 @@ TODO: Do I have the faucet link earlier?
 <br />
 <br />
 
-### Lets Deploy the game!
-Just like before, we simply create a deploy script.
+### Lets get back to that contract
 
 <br />
 <br />
@@ -228,20 +202,5 @@ Just like before, we simply create a deploy script.
 <br />
 <br />
 
-### How do we interact with the contract?
 
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 
