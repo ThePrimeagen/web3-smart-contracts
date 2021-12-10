@@ -255,3 +255,38 @@ YIKES....
 <br />
 <br />
 
+### Don't worry!  There is a solution.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### But there is a bit we have to learn to understand it
+YIKES...
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
