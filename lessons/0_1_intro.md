@@ -120,9 +120,14 @@ think that it could be a real winner.
 
 ##### P4. Memory, Fallbacks -> Diamond Pattern
 * Things we will a bit complicated here.  But it is a must for any developer.
+![Yes I Will, Nick](./images/nick.png)
 
-##### P5. Advanced Testing Techniques
-* This will help with development of contracts that rely on 3rd parties.
+TODO: Can I do this?
+##### P5. Launch it?
+* Launch on TestNet Rinkeby
+  * Get metamask now please
+  * Get Rinkeby now please: [Rinkeby Faucet](https://faucets.chain.link/rinkeby)
+    * https://faucets.chain.link/rinkeby
 
 <br />
 <br />
@@ -141,14 +146,31 @@ think that it could be a real winner.
 <br />
 
 ### Ready?
-This does mean we will make a contract before we even understand ANYTHING that
-is happening.  This is ok.  Just go with it and try to draw boxes and arrows.
-<br />
-<br />
-Lastly, I assume you understand programming.
-<br />
-<br />
-We will be hopping between many technologies and moving fast.
+We are going to something a bit different than the usual course.  We are going
+to start by simply writing, deploying, and testing a contract.
+
+#### Why code first?
+I firmly believe that the best way to become good at anything is to do said
+thing.  I could spend a significant amount of time going through the following:
+* declaring variables
+* if statements
+* for loops
+* inheritance
+
+#### But No!
+I would rather cover:
+* How to deploy your contract, communicate with your contract from browser or
+  node.
+* Strategies for testing using inheritance.
+* Memory layout
+
+#### Some Basic Assumptions
+* I assume you understand programming
+* I assume you are mildly familiar with typescript and its echo system.
+
+#### Why not use the ethereum IDE for dev?
+I really think that it is best to understand your enviroment before you use
+things that abstract it away from you.
 
 <br />
 <br />
@@ -165,4 +187,3 @@ We will be hopping between many technologies and moving fast.
 <br />
 <br />
 <br />
-

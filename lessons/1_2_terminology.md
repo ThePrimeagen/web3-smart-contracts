@@ -39,7 +39,9 @@ icon: "dumpster-fire"
 * ethers: `import { ethers } from "ethers";`.  This is lib that abstracts the
   complication of communication.
 * hardhat: Its backbone of any project these days.  It provides compiling,
-  testing, and deployment support
+  testing, and deployment support.
+  * When you get a `getContractFactory("HelloWorld")` it actually just loads
+    the file from the json build file.
 * metamask: Its a browser plugin for wallets.  "The Defacto Standard"
 
 You will notice that in the code on the web I don't reference hardhat.  That is

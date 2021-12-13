@@ -10,9 +10,6 @@ icon: "dumpster-fire"
 ### The Counter Contract
 Lets make a contract that every time its called it increments by one.
 
-Remember, I am not going to teach you just Solidity.  We are going to try to
-make this a very well rounded approach to learning how to program contracts.
-
 #### Important side note, lets use this
 ```
 import "hardhat/console.sol";
@@ -350,13 +347,14 @@ Lets update our deploy script.
 
 ### It depends is the only answer
 * JavaScript Number: 2\*\*53 - 1
+  * 9007199254740991.0
 * Rust: i32
 * Cpp: depends on arch or you can use `uint32_t`
 * Solidity: 256 bits - 32 bytes
 
-#### Why BigInt?
+#### Why BigNumber?
 * 256 bits > 2 \*\* 53 - 1
-* BigInt allows for large decimal values.
+* BigNumber allows for large decimal values.
 
 #### Lets do an experiment
 Lets return a smaller than 53 bit number!
@@ -429,3 +427,20 @@ Questions?
 <br />
 <br />
 
+### I am not done here... Lets deploy this somewhere else..
+In a rinkeby far far away...
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

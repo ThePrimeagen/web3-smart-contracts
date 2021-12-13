@@ -56,12 +56,6 @@ gas-cost * gas-used * eth-cost / 10^9
 ##### Lets build some contracts and watch the price change as we do things.
 So lets do some basic programs and start finding out what things cost.
 
-- base function, set counter.
-- base function + return const
-- base function + create var + return var
-- base function + create var + return var + pass in var
-- base function + create var + return var + pass in var + return var * pass in var
-
 <br />
 <br />
 <br />
@@ -101,6 +95,11 @@ So lets do some basic programs and start finding out what things cost.
 
 ```
 yarn add -D hardhat-gas-reporter
+```
+
+Add this line to your hardhat.config.ts
+```
+import "hardhat-gas-reporter";
 ```
 
 <br />

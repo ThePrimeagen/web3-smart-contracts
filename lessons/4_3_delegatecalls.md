@@ -27,6 +27,12 @@ thing, but in javascript.
 <br />
 
 ### More live coding!!!
+If you forget, here is the function name.
+```
+(bool request, bytes _) = ContractA.delegatecall(
+    abi.encodeWithSignature("getA() public view returns (uint256)")
+);
+```
 
 <br />
 <br />

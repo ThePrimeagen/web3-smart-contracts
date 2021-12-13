@@ -78,8 +78,9 @@ struct Foo {
     uint a;
     uint16 b;
     uint8 c;
-    mapping(uint => Foo) mymap;
 }
+mapping(uint => Foo) mymap;
+Foo[] myarr;
 ```
 
 <br />

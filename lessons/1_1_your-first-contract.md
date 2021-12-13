@@ -586,9 +586,8 @@ npx hardhat node
 
 ### Course on developer productivity...
 Its awesome, Tmux, ansible, everything, etc. etc.
-TODO: Put awesome images here instead!
-[Developer Productivity](https://frontendmasters.com/courses/developer-productivity/)
-[Vim Fundamentals](https://frontendmasters.com/courses/vim-fundamentals/)
+![Developer Productivity](./images/dev-prod.png)
+![Vim Fundamentals](./images/vim.png)
 
 <br />
 <br />
