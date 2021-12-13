@@ -90,13 +90,26 @@ see how it goes.
 <br />
 
 ### The goal of this course
-The goal of this course is not to teach you something specific about a specific
-platform, but instead to give you the foundation it requires to build
-_anything_ you want on with ethereum.
+The goal of this course is not to be another how to build an ethereum React
+app.  Instead I want this to be a well rounded introduction into writing and
+interacting with the ethereum blockchain.
 
-There are plenty of other cool technologies out there that could easily be
-used.  I personally am very excited about building something with solona.  I
-think that it could be a real winner.
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 #### The Course Outline.
 ##### P1. The Foundation
@@ -108,6 +121,7 @@ think that it could be a real winner.
 
 ##### P2. Understanding Solidity
 * A slightly more complex contract with reading and writing.
+* On Rinkeby
 
 ##### P3. Complex Contract
 * Core concepts.
@@ -118,16 +132,9 @@ think that it could be a real winner.
     * We will get you good at bits.
   * Testing, Deploying, Communicating.
 
-##### P4. Memory, Fallbacks -> Diamond Pattern
+##### P4. Fallbacks, Delegate Calls, and Memory -> Diamond Pattern
 * Things we will a bit complicated here.  But it is a must for any developer.
 ![Yes I Will, Nick](./images/nick.png)
-
-TODO: Can I do this?
-##### P5. Launch it?
-* Launch on TestNet Rinkeby
-  * Get metamask now please
-  * Get Rinkeby now please: [Rinkeby Faucet](https://faucets.chain.link/rinkeby)
-    * https://faucets.chain.link/rinkeby
 
 <br />
 <br />
@@ -172,6 +179,10 @@ I would rather cover:
 I really think that it is best to understand your enviroment before you use
 things that abstract it away from you.
 
+#### console.log
+Yes, there will be times we will use this as our primary debugging tool.  Most
+of it will be on purpose, definitely never on accident.
+
 <br />
 <br />
 <br />
@@ -187,3 +198,22 @@ things that abstract it away from you.
 <br />
 <br />
 <br />
+
+### First Try
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+

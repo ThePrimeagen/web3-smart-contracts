@@ -48,6 +48,9 @@ jpegdegens
     ...
 ```
 
+###  HardHat
+Its a tool for building and deploying contracts to _any_ ethereum network.
+
 <br />
 <br />
 <br />
@@ -80,12 +83,27 @@ jpegdegens
 <br />
 <br />
 
-
 ### Create first contract.
 Create a file in contracts folder named HelloWorld.sol
 
 #### .sol != shit out of luck
 solidity, which is the programming language of ethereum.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 #### Contract code
 ```
