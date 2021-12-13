@@ -18,7 +18,7 @@ module.exports = {
       "ThePrimeagen nft web3 blockchain",
     ],
   },
-  pathPrefix: "",
+  pathPrefix: "/nft",
   // pathPrefix: "/my-repo-name", // if you're using GitHub Pages, put the name of the repo here with a leading slash
   plugins: [
     {
