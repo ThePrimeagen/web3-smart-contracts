@@ -56,6 +56,19 @@ gas-cost * gas-used * eth-cost / 10^9
 ##### Lets build some contracts and watch the price change as we do things.
 So lets do some basic programs and start finding out what things cost.
 
+#### A cool gas reporter
+[Gas Reporter](https://github.com/cgewecke/hardhat-gas-reporter)
+
+```
+yarn add -D hardhat-gas-reporter
+```
+
+Add this line to your hardhat.config.ts
+```
+import "hardhat-gas-reporter";
+```
+
+
 <br />
 <br />
 <br />
@@ -74,33 +87,7 @@ So lets do some basic programs and start finding out what things cost.
 ### Key Takeaway
 * Everything you do costs money.  Be careful.
 * Let me rant for a second about javascript.
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-### A cool gas reporter
-[Gas Reporter](https://github.com/cgewecke/hardhat-gas-reporter)
-
-```
-yarn add -D hardhat-gas-reporter
-```
-
-Add this line to your hardhat.config.ts
-```
-import "hardhat-gas-reporter";
-```
+* Questions?
 
 <br />
 <br />

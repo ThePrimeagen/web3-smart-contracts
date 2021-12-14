@@ -60,6 +60,23 @@ TIME IN THE SADDLE
 <br />
 <br />
 
+### You don't know what vim is?
+![Vim Course](./image/vim.png)
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ### The idea
 I love the idea of RPGs.
 

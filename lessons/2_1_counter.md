@@ -135,6 +135,24 @@ eth_getTransactionByHash
 <br />
 <br />
 
+### What Happened here?
+We made a transaction, not a call.  Therefore, sorry.  No data.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ### Storage is extremely expensive
 You altered state.  You pay for it.
 
@@ -429,6 +447,25 @@ Questions?
 
 ### I am not done here... Lets deploy this somewhere else..
 In a rinkeby far far away...
+[Rinkeby Faucet](https://faucets.chain.link/rinkeby) https://faucets.chain.link/rinkeby
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### That was AWESOME
+Questions?
 
 <br />
 <br />

@@ -222,6 +222,24 @@ Compilation finished successfully
 <br />
 <br />
 
+# Questions?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
 # LETS TEST!!!!
 
 ```
@@ -372,6 +390,22 @@ important AND with the appropriate methods on this.
 <br />
 <br />
 
+## Questions?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
 ## A Break Point
 ### Build some foundation
@@ -514,6 +548,23 @@ npx hardhat node
 <br />
 <br />
 
+## Questions?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ### Lets go even deeper
 
 <br />
@@ -605,6 +656,7 @@ npx hardhat node
 ### Course on developer productivity...
 Its awesome, Tmux, ansible, everything, etc. etc.
 ![Developer Productivity](./images/dev-prod.png)
+<hr/>
 ![Vim Fundamentals](./images/vim.png)
 
 <br />
@@ -830,7 +882,8 @@ getContract();
 <br />
 
 ### There are a few gaps in your knowledge
-lets start filling it out.
+#### First, questions?
+#### Lets go over some basics
 
 <br />
 <br />
