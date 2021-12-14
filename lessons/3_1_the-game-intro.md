@@ -88,6 +88,8 @@ I love the idea of RPGs.
   * Class will not influence stats created, therefore getting an epic hero will
     be hard.
 * I want to be paid... 0.05 eth per hero!
+* I should be able to get my heroes I have generated.
+* Heroes should be stored on the chain.
 * stats are randomly generated
   * stats are strength, health, intellect, magic, dexterity
   * A scale of 1 - 18
