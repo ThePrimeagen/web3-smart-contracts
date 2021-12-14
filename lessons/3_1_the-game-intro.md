@@ -61,7 +61,8 @@ TIME IN THE SADDLE
 <br />
 
 ### You don't know what vim is?
-![Vim Course](./image/vim.png)
+![Vim Course](./images/vim.png)
+
 <br />
 <br />
 <br />
