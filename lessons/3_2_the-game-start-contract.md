@@ -152,11 +152,11 @@ Ask the questions
 * What is numbers in Decimal
 * What is numbers in Binary
 * multiplying by 2 (don't forget shift)
+* Power of 2 numbers
 * Work through some examples
 * Quick Mafs
 * Logic Operations
 * BLOW YOUR MIND
-* Double make sure you know about Hex plus shifting
 
 <br />
 <br />
@@ -180,6 +180,23 @@ function _what_is_my_name_(a: number, b: number): boolean {
     return a & b === b;
 }
 ```
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Questions?
 
 <br />
 <br />
@@ -286,6 +303,23 @@ YIKES....
 
 ### But there is a bit we have to learn to understand it
 YIKES...
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Questions?
 
 <br />
 <br />
