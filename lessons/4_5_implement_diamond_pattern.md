@@ -7,12 +7,7 @@ description: "Diamonds are forever, or until self destruct is called."
 icon: "dumpster-fire"
 ---
 
-### Lets implement the diamond storage pattern
-* We will fully use the diamond pattern here.
-* It may get a bit in the weeds
-
-#### QUESTIONS??
-
+### Lets go over some Diamond Code
 #### Clone this contract
 [THIS CONTRACT](https://github.com/mudgen/diamond-3-hardhat)
 https://github.com/mudgen/diamond-3-hardhat
@@ -32,7 +27,43 @@ https://github.com/mudgen/diamond-3-hardhat
 <br />
 <br />
 
+### Lets implement the diamond pattern
+* We will fully use the diamond pattern here.
+* It may get a bit in the weeds
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 ### Questions?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### AppStorage vs DiamondStorage vs SpecialStorage
 
 <br />
 <br />

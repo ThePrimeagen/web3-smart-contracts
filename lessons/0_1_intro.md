@@ -47,6 +47,12 @@ icon: "dumpster-fire"
 ## Slum Doge Millionaire
 ![Slumdoge Millionaire](./images/slum-doge.png)
 
+Which I later learned after making this slide, he unironically calls himself
+slumdoge millionaire
+
+![Slumdoge Millionaire Unironic](./images/slum-doge-twit.png)
+
+
 <br />
 <br />
 <br />
