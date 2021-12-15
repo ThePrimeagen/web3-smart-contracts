@@ -43,6 +43,7 @@ I mean super dooper neat.
 <br />
 
 ### To the editor!
+#### Lets first go over some basic storage
 
 <br />
 <br />
@@ -59,3 +60,72 @@ I mean super dooper neat.
 <br />
 <br />
 
+### Questions?
+* This is very unusual for any programming paradigm
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Now it makes sense huh?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### This means we may have a problem.  Remember our delegate code example?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Storage Technique!
+* AppStorage
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />

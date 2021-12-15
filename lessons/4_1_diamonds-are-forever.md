@@ -7,7 +7,27 @@ description: "Learning how the storage works."
 icon: "dumpster-fire"
 ---
 
-### Diamonds Are Forver (but not necessarily)
+### There are ways around size issue.
+* We could hack our "own" solution by passing around contract addresses.
+* We could use a well established pattern.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+### Diamond Pattern
 * Your contract is too big.
 * You will have to update your contract at some point.
 
@@ -48,7 +68,7 @@ From the site
 <br />
 
 ### My perspective on knowing everything
-But I do want a foundation.
+* I have written http, http2, and web socket algorithms.  I don't know tcp.
 
 <br />
 <br />
@@ -65,9 +85,27 @@ But I do want a foundation.
 <br />
 <br />
 
-### 2 Foundational Materials required for basic Diamond Understanding
-If you don't know these, its easy to dominate your own memory and screw
-everything up.
+#### But before we go forward! Quick White board to explain diamonds!
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Three Foundational Materials required for basic Diamond Understanding
+* By understanding the first two, you will know how the diamond pattern works.
+* By understanding the third one, you will prevent a whole class of bugs that
+  will dominate your contract.
 
 #### Fallbacks
 #### Delegate calls
