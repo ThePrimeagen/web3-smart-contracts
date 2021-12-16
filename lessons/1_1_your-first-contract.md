@@ -413,6 +413,26 @@ Lets look at the test code one more time and ask the question, what happened?
 Lets create this into a deploy script that can actually deploy our contract
 onto a network.
 
+```typescript
+import "@nomiclabs/hardhat-ethers";
+import { ethers } from "hardhat";
+
+async function deploy() {
+    const HelloWorld = await ethers.getContractFactory("HelloWorld");
+    const hello = await HelloWorld.deploy();
+    await hello.deployed();
+
+    return hello;
+}
+
+// @ts-ignore
+async function sayHello(hello) {
+    console.log("Say Hello:", await hello.hello());
+}
+
+deploy().then(sayHello);
+```
+
 <br />
 <br />
 <br />
