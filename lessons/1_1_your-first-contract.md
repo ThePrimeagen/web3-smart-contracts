@@ -222,24 +222,6 @@ Compilation finished successfully
 <br />
 <br />
 
-# Questions?
-
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
-
-
 # LETS TEST!!!!
 
 ```
@@ -599,7 +581,7 @@ npx hardhat node
 <br />
 <br />
 
-### Some would beg me to just explain what happenened
+### "Please, no, its too fast, too much coconut oil (free ranged, organic)"
 
 <br />
 <br />
@@ -657,6 +639,7 @@ npx hardhat node
 Its awesome, Tmux, ansible, everything, etc. etc.
 ![Developer Productivity](./images/dev-prod.png)
 <hr/>
+
 ![Vim Fundamentals](./images/vim.png)
 
 <br />
@@ -804,7 +787,7 @@ You will also need this, `tsconfig.json`
 {
     "compilerOptions": {
         "resolveJsonModule": true,
-        "esModuleInterop": true,
+        "esModuleInterop": true
     }
 }
 ```
@@ -880,6 +863,24 @@ getContract();
 <br />
 <br />
 <br />
+
+### Take a moment and just think about it.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
 
 ### There are a few gaps in your knowledge
 #### First, questions?

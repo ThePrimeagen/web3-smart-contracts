@@ -10,6 +10,8 @@ icon: "dumpster-fire"
 ### Go forth and build!
 * You should have all the tools to build your smart contracts, NFTs, whatever.
 * Now its a matter of time in the saddle
+* There is a lot of danger in too much external libraries
+  * they don't all implement diamond storage
 
 <br />
 <br />
@@ -44,10 +46,26 @@ icon: "dumpster-fire"
 <br />
 
 ### Catch me on twitch or yt
-Twitch: ThePrimeagen
-YT:
-* ThePrimeagen main channel
-* ThePrimeTimeagen meme / streams channel
+* Did I have that vim speed I promised in the intro?
+* Twitch: [ThePrimeagen](twitch.tv/ThePrimeagen)
+* YT: [ThePrimeagen](youtube.com/ThePrimeagen)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### I hope you enjoyed the First look at Web3 with Ethereum
 
 <br />
 <br />

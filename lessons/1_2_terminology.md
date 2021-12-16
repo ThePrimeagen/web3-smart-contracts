@@ -18,6 +18,12 @@ icon: "dumpster-fire"
   wallet address.
 * Wallet: The blockchain, its a private + public key combo (really you just
   need a private key).
+* BTW: The ability to tell someone that you know something that they likely
+  don't, or you use some obscure technology
+  * Let me give you an example:
+    * I use vim, BTW.
+    * I type with dvorak, BTW.
+    * I write CLI programs with Rustlang, BTW
 
 <br />
 <br />

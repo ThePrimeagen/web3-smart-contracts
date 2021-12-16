@@ -78,6 +78,8 @@ is 100% the future.  I have no idea what the future will be and crypto is a
 very interesting topic to say the least.  From a personal stand point, I think
 its just interesting.  I think every developer should at least play with it and
 see how it goes.
+* It very well may disrupt everything that we understand today.
+* It very well may never go anywhere
 
 <br />
 <br />
@@ -99,6 +101,32 @@ see how it goes.
 The goal of this course is not to be another how to build an ethereum React
 app.  Instead I want this to be a well rounded introduction into writing and
 interacting with the ethereum blockchain.
+
+* I want you to walk away and be able to build _anything_ you want.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Who Am I?
+* What I am best known for is my speed using vim.
+  * Did I mention I use vim?
+* Twitch: [ThePrimeagen](twitch.tv/ThePrimeagen)
+* YT: [ThePrimeagen](youtube.com/ThePrimeagen)
+* I work at a startup, we ship dvd's around the country.
+
 
 <br />
 <br />
@@ -128,17 +156,20 @@ interacting with the ethereum blockchain.
 ##### P2. Understanding Solidity
 * A slightly more complex contract with reading and writing.
 * On Rinkeby
+  * [Rinkeby Faucet](https://faucets.chain.link/rinkeby)
 
 ##### P3. Complex Contract
 * Core concepts.
   * Arrays
   * Mappings
   * Bits
-    * (0x1 << 3) - 1
+    * What does this mean?
+      * a & b == b
+      * (0x1 << 3) - 1
     * We will get you good at bits.
   * Testing, Deploying, Communicating.
 
-##### P4. Fallbacks, Delegate Calls, and Memory -> Diamond Pattern
+##### P4. Solve the needing to update your contract
 * Things we will a bit complicated here.  But it is a must for any developer.
 ![Yes I Will, Nick](./images/nick.png)
 
@@ -170,12 +201,11 @@ thing.  I could spend a significant amount of time going through the following:
 * for loops
 * inheritance
 
-#### But No!
-I would rather cover:
-* How to deploy your contract, communicate with your contract from browser or
-  node.
-* Strategies for testing using inheritance.
-* Memory layout
+#### Why Ethereum?
+* Its really the best place to start.
+  * Language is simple
+  * The concepts are not that hard
+  * Its extremely popular
 
 #### Some Basic Assumptions
 * I assume you understand programming
@@ -188,6 +218,8 @@ things that abstract it away from you.
 #### console.log
 Yes, there will be times we will use this as our primary debugging tool.  Most
 of it will be on purpose, definitely never on accident.
+
+#### But the most important part...
 
 <br />
 <br />
@@ -222,4 +254,54 @@ of it will be on purpose, definitely never on accident.
 <br />
 <br />
 <br />
+
+### I will be moving fast, and so can you
+A lot of the reasons why I move so fast is because I have spent a lot of time
+making my system as optimal as possible.
+
+Vim
+![Vim](./images/vim.png)
+
+Developer Productivity
+![Devolper productivity](./images/dev-prod)
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### Pacing
+We will start off by assuming you know nothing about smart contract
+development, but we will speed up significantly towards the end.
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+
+
+
 

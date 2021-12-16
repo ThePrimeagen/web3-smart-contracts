@@ -16,10 +16,10 @@ icon: "dumpster-fire"
 * I want to be paid... 0.05 eth per hero!
 * I should be able to get my heroes I have generated.
 * Heroes should be stored on the chain.
+* stats are strength, health, intellect, magic, dexterity
 * stats are randomly generated
-  * stats are strength, health, intellect, magic, dexterity
   * A scale of 1 - 18
-  * The stats are randomly picked and randomly determined there amplitude according to the following:
+  * The stats are randomly picked and their amplitude is randomly determined according to the following:
     * Stat 1 can max at 18
     * Stat 2 can max at 17
     * Stat 3 can max at 16
@@ -267,7 +267,11 @@ YIKES....
 <br />
 
 ### Every time your contract gets deployed again (upgrade / bug fix) address changes??
+* What if you had money associated with a contract?
+* What if you had data associated with that contract?
+
 YIKES....
+
 
 <br />
 <br />
@@ -320,6 +324,26 @@ YIKES...
 <br />
 
 ### Questions?
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+### The Point of This Course
+* If you forget solidity, dont worry!
+  * The documentation is _really_ good
+  * [Cryptozombies.io](https://cryptozombies.io) is one of the best
 
 <br />
 <br />

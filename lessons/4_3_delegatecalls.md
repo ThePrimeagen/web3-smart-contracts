@@ -66,3 +66,20 @@ If you forget, here is the function name.
 <br />
 <br />
 
+### Improve drawing
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+

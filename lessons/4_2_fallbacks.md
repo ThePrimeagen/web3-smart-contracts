@@ -26,4 +26,20 @@ doesn't match any known function invocation.
 <br />
 <br />
 
+### Improve the Diamond Drawing
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
 
