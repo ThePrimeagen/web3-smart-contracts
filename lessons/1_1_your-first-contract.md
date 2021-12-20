@@ -856,13 +856,13 @@ async function getContract() {
     const contract = new ethers.Contract(
         address,
         [
-            "function helloWorld() public pure returns(string memory)",
+            "function hello() public pure returns(string memory)",
         ], // abi
         provider
     );
 
     console.log("We have done it, time to call");
-    console.log(await contract.helloWorld());
+    console.log(await contract.hello());
 }
 
 
