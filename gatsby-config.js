@@ -10,15 +10,16 @@ module.exports = {
     twitter: "https://twitter.com/ThePrimeagen", // make empty string to omit socials
     github: "https://github.com/ThePrimeagen",
     description:
-      "The sort of comprehensive tour of the ethereums block chain.",
+      "The sort of comprehensive tour of the ethereum block chain and developing smart contracts with solidity.",
     keywords: [
       "Blockchain",
       "web3",
+      "solidity",
       "The tutorial of a life time on web3",
-      "ThePrimeagen nft web3 blockchain",
+      "ThePrimeagen web3 smart contracts",
     ],
   },
-  pathPrefix: "/nft",
+  pathPrefix: "/web3-smart-contracts",
   // pathPrefix: "/my-repo-name", // if you're using GitHub Pages, put the name of the repo here with a leading slash
   plugins: [
     {
