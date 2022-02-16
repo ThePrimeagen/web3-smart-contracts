@@ -75,6 +75,12 @@ const TemplateWrapper = (props) => {
               {!frontmatter ? null : (
                 <h2>{`${frontmatter.section} – ${frontmatter.title}`}</h2>
               )}
+              <h3 class="button">
+                <a href="https://frontendmasters.com/courses/web3-smart-contracts/">
+                  <span class="mobile-hidden">Web 3: Smart Contracts with Solidity</span> Videos
+                  <span class="icon">&nbsp;▶️&nbsp;</span>
+                </a>
+              </h3>
             </div>
             <div className="content-container">
               <div className="main">{props.children}</div>
