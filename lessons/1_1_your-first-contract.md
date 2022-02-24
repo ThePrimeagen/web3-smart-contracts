@@ -230,12 +230,12 @@ yarn add -D @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-
 
 ### Typescript
 ```
-yarn add --save-dev ts-node typescript
+yarn add -D ts-node typescript
 ```
 
 ### Testing types
 ```
-yarn add --save-dev chai @types/node @types/mocha @types/chai
+yarn add -D chai @types/node @types/mocha @types/chai
 ```
 
 Yes... its a lot of dependencies.
