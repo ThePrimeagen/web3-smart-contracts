@@ -1,0 +1,15 @@
+order,title,link0,link1
+1A,Introduction,https://faucets.chain.link/rinkeby,
+10A,Your First Contract,,
+15A,Terminology,,
+20A,Solidity Language Basics,https://docs.soliditylang.org/en/v0.8.0/introduction-to-smart-contracts.html,
+110A,The Counter Contract,https://faucets.chain.link/rinkeby,
+160A,Gas,https://github.com/crytic/evm-opcodes,https://github.com/cgewecke/hardhat-gas-reporter
+310A,The Game : Intro,,
+320A,The Game : The Contract,https://cryptozombies.io,
+400A,Diamonds Are Forever,,
+420A,Fallbacks,,
+430A,Delegate Calls,,
+440A,Storage,,
+450A,Lucy in the sky with Diamonds,https://github.com/mudgen/diamond-3-hardhat,
+500A,Outroduction,,
