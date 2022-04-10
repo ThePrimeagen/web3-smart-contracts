@@ -8,7 +8,7 @@
   📝 <a href="https://theprimeagen.github.io/web3-smart-contracts/">Course Website: Ethereum and Smart Contracts</a>
 </p>
 
-Fly through code faster than you thought possible using VIM! You’ll learn the basics of editing and even know how to exit VIM. Go deeper with navigation, macros, registers, find, and replaces. Then edit your vimrc plugins along with quickfix lists. Lastly, see ThePrimeagen demonstrate his ideal VIM workflow.
+Web 3 (DApp) applications could change the development landscape. Learn to create and deploy smart contracts on Ethereum with Solidity. Then tackle challenging concepts such as memory layout, delegate calls, and fallback functions.
 
 ## License
 
